@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+
+    <table class="main">
+        <tr>
+            <td colspan="5"> <input id="result" class="result" type="tel"></td>
+        </tr>
+        <tr>
+            <td><button class="btnn" onclick="getNumber('7')">7</button> </td>
+            <td><button class="btnn" onclick="getNumber('8')">8</button> </td>
+            <td><button class="btnn" onclick="getNumber('9')">9</button> </td>
+            <td><button class="btnn" onclick="getNumber('/')">/</button> </td>
+            <td><button class="btnn" onclick="getNumber('%')">%</button> </td>
+        </tr>
+        <tr>
+            <td><button class="btnn" onclick="getNumber('4')">4</button> </td>
+            <td><button class="btnn" onclick="getNumber('5')">5</button> </td>
+            <td><button class="btnn" onclick="getNumber('6')">6</button> </td>
+            <td><button class="btnn" onclick="getNumber('*')">*</button> </td>
+            <td><button class="btnn" onclick="clearresult()">C</button> </td>
+        </tr>
+        <tr>
+            <td><button class="btnn" onclick="getNumber('1')">1</button> </td>
+            <td><button class="btnn" onclick="getNumber('2')">2</button> </td>
+            <td><button class="btnn" onclick="getNumber('3')">3</button> </td>
+            <td><button class="btnn" onclick="getNumber('-')">-</button> </td>
+
+
+
+        </tr>
+        <tr>
+            <td colspan="2 "><button onclick="getNumber('0')" class=btn>0</button> </td>
+            <td><button class="btnn" onclick="getNumber('.')">.</button> </td>
+            <td><button class="btnn" onclick="getNumber('+')">+</button> </td>
+            <td><button class="btnn" onclick="getresult()">=</button> </td>
+
+        </tr>
+    </table>
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
